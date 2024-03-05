@@ -5,4 +5,4 @@ https://www.figma.com/file/QzTB6ZV6g8clJQAhwMUutE/Abano-Cosmetics-Products-Web-P
 I also include the link to the course:
 https://www.youtube.com/playlist?list=PLy09ETjgu8VqVi-FP7kmSP-n6botHJs_C
 
-For now I just published the layout
+For now I just published the layout, not functionality.

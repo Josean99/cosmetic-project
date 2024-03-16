@@ -1,14 +1,14 @@
 <div style="border-color: grey;" class="border p-4">
     <div class="d-flex justify-content-center m-3">
-        <img class="mx-auto" src="assets/images/serum1.png" alt="serum">
+        <img class="mx-auto" src="assets/{{product?.image}}" alt="serum">
     </div>
     <div class="d-flex justify-content-center">
-        <p class="productTitle">RADIANCE GLOW SERUM</p>
+        <p class="productTitle">{{product?.name}}</p>
     </div>
     <div class="d-flex justify-content-center">
-        <p class="productPrice">$40.00</p>
+        <p class="productPrice">{{product?.price | currency}}</p>
     </div>
     <div class="d-flex justify-content-center">
-        <img class="mx-auto" src="assets/images/button1.png" alt="serum">
+        <img class="btn mx-auto" src="assets/images/button1.png" alt="serum">
     </div>
 </div>

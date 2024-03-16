@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-landing-category',
@@ -8,5 +8,11 @@ import { Component } from '@angular/core';
   styleUrl: './landing-category.component.scss'
 })
 export class LandingCategoryComponent {
-
+  @Input({required : true}) category? : ICategory;
 }
+
+export interface ICategory{
+    id : string, //Uuid
+    name : string,
+    icon : string
+  }
